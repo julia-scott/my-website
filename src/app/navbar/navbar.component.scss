@@ -1,0 +1,28 @@
+.navbar {
+    padding-top: 1.5%;
+    background: hsla(0, 100%, 100%, 0.8);
+
+    .navbar-nav {
+        margin-left: auto;
+        font-family: "Raleway", sans-serif;
+        a {
+            color: #4D4D4D;
+            padding: 0 3vw 0 3vw;
+            font-size: 1.2vw;
+            :hover{border: 0;}
+        }
+        align-items: center;
+        margin-right: 14vw;
+    }
+    
+    .navbar-brand {
+        margin-left: 14vw;
+        font-family: "Raleway", sans-serif;
+        font-size: 2vw;
+        line-height: 2vw;
+        color: #4D4D4D;
+        border: 1.5px solid #4D4D4D;
+        padding: 0.5px 0.5vw 0.5px 0.5vw;
+        text-align: center;
+    }
+}
