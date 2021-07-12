@@ -4,10 +4,22 @@
     width: 65%;
     height: 100vh;
     .middle {
-        h1, h2, h4 {
+        h1, h2 {
             padding-bottom: 2%;
         }
         margin: auto;
+        h4 {
+            display: inline-block;
+            margin-bottom: 0;
+            vertical-align: middle;
+        }
+        i::before {
+            font-size: 40px;
+            vertical-align: middle;
+        }
+        a {
+            color: black;
+        }
     }
     b {
         font-weight: 600;
