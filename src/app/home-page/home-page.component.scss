@@ -1,3 +1,15 @@
 .main {
-    padding-top: 5%;
+    padding-top: 15%;
+    margin: auto;
+    width: 65%;
+    height: 100vh;
+    .middle {
+        h1, h2, h4 {
+            padding-bottom: 2%;
+        }
+        margin: auto;
+    }
+    b {
+        font-weight: 600;
+    }
 }
