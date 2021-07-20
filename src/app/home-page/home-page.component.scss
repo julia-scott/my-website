@@ -41,7 +41,13 @@
             color: black;
         }
         .card-body {
-            padding-right: 0;
+            height: 100%;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            h3 {
+                flex-grow: 1;
+            }
         }
     }
 }
