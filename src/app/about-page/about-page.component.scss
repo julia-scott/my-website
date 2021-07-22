@@ -10,6 +10,11 @@
         .card-body {
             padding-top: 0;
             padding-left: 0;
+            i::before {
+                font-size: 40px;
+                vertical-align: middle;
+                color: black;
+            }
         }
     }
 
