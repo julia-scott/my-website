@@ -33,9 +33,10 @@
         .separator:not(:empty)::after {
             margin-left: .25em;
         }
-        img {
-            padding-bottom: 1.72vh;
-            padding-top: 1.72vh;
+        .flex-gap {
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: min(2.8vh);
         }
     }
 }
