@@ -1,0 +1,47 @@
+.main {
+    padding-top: 10%;
+    margin: auto;
+    width: 70%;
+    min-height: 100vh;
+    .card {
+        border: none;
+        background: transparent;
+        margin-bottom: 10vh;
+        .card-body {
+            padding-top: 0;
+            padding-left: 0;
+            i::before {
+                font-size: 40px;
+                vertical-align: middle;
+                color: black;
+            }
+        }
+    }
+
+    .add {
+        margin-bottom: 15%;
+        .separator {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-top: 3vh;
+            margin-bottom: 2vh;
+        }
+        .separator::before, .separator::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #000;
+        }
+        .separator:not(:empty)::before {
+            margin-right: .25em;
+        }
+        .separator:not(:empty)::after {
+            margin-left: .25em;
+        }
+        .flex-gap {
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: min(2.8vh);
+        }
+    }
+}
