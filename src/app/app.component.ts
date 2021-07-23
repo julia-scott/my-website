@@ -29,7 +29,17 @@ export class AppComponent {
       '../assets/sports/surf1.jpg',
       '../assets/sports/vball1.jpg',
       '../assets/sports/vball2.jpg',
-      '../assets/sports/wakeboard2.jpg'
+      '../assets/sports/wakeboard2.jpg',
+      '../assets/travel/australia1.jpg',
+      '../assets/travel/bryce1.jpg',
+      '../assets/travel/cali2.jpg',
+      '../assets/travel/cali4.jpg',
+      '../assets/travel/cali5.jpg',
+      '../assets/travel/cuba1.jpg',
+      '../assets/travel/cuba2.jpg',
+      '../assets/travel/europe1.jpeg',
+      '../assets/travel/europe2.jpeg',
+      '../assets/travel/zion1.jpg'
     );
   }
 
@@ -37,6 +47,7 @@ export class AppComponent {
     for (var i = 0; i < args.length; i++) {
       this.imgs[i] = new Image();
       this.imgs[i].src = args[i];
+      console.log('loaded: ' + args[i]);
     }
   }
 }
