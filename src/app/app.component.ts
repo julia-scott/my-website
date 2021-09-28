@@ -11,6 +11,9 @@ export class AppComponent {
 
   ngOnInit() {
     this.pload(
+      '../assets/castra_main.png',
+      '../assets/plant_doctor_main.png',
+      '../assets/peeps_main.png',
       '../assets/about_main.jpg',
       '../assets/animals/chicken.jpg',
       '../assets/animals/daisy1.jpg',
@@ -47,7 +50,6 @@ export class AppComponent {
     for (var i = 0; i < args.length; i++) {
       this.imgs[i] = new Image();
       this.imgs[i].src = args[i];
-      console.log('loaded: ' + args[i]);
     }
   }
 }
